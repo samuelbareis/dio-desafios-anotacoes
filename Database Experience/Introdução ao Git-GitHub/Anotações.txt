@@ -1,0 +1,13 @@
+git clone - Faz um clone do repositporio remoto em seu repositório local
+commits no seu repositório local com email e nickname diferentes -  Os commits aparecerão com email e nickname diferentes no GitHub
+ambiente de desenvolvimento e do servidor - local e remoto respectivamente.
+arquivo do tipo Markdown -  Um arquivo qu eusa caracteres especiais como # para formatar o texto
+comando usado para inicializar o GIT - git init
+Git init - Inicializa um repositório git na pasta em questão
+comando dir, no Windows e ls, no Linux fazem - Retorna uma lista com o conteúdo naquele diretório específico
+GIT - Um sistema de versionamento de código distribuído
+sistema distribuído - Sistema que possui múltiplas cópias de si mesmo em diferentes locais
+commit não representa o estado mais atual do repositório - pull e depois um push
+
+
+

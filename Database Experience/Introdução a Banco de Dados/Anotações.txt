@@ -1,0 +1,45 @@
+Big Data: Volume, Variedade, Velocidade (NoSQL - não relacional)
+
+Dados: Tudo é dado, ele deve ser persistente e confiável, diamente bruto, fato
+
+Informação:
+
+Banco de Dados: Conjunto de dados que existe relação
+
+FONTE DE DADOS -> BANCO DE DADOS(SGBD) -> API -> BACKEND -> FRONTAND -> CLIENTE
+
+SGBD: Gerenciar os dados que estão dentro.
+Contexto - representa cenário real;
+Coerência;
+Propósito.
+	DEFINIÇÃO - REGRAS, ESTRUTURA
+	CONSTRUÇÃO - MAPEAMENTO, CRIAR ESTRUTURA;
+	MANIPULAÇÃO - RECUPERAÇÃO D EINFORMAÇÕES, RELATÓRIOS, QUERY;
+	COMPARTILHAMENTO - CONTROLE DE ACESSO, SIMUTANEIDADE;
+
+EX: 
+CONTEXTO - UNIVERSIDADE
+DEFINIÇÃO - RASTREAR INFORMAÇÕES ESPECIFICAS, SOBRE ESTUDANTE, CURSOS, SEÇÃO ETC
+SGBD FAZ USO DOS METADADOS PARA ENTÃO PARA CRIAR A BASE PERCISTENTE
+METADADOS: INFORMAÇÕES QUE FORNECEM EM ADESCRIÇÃO CONSISA DOS DADOS CONTIDOS NO BD
+
+DBA - DEFINIÇÃO DAS TABELAS E CONSTRAINS PARA DADOS, REGRAS, COMANDOS TRADUZDIOS PELO PROCESSADOR LDD, O DESING DE DB PODE ESTÁ JUNTO.
+
+LDD - INTERNO
+LMD - ALTERA E EXTRAI, DURÁVEL
+
+SGBD (BD) GERENCIA O ARMAZENAMENTO (HD -> RAM), GERENCIA O BUFFER (RAM <-> HD), CADA UM TEM SEU ESPECIFICO
+
+Data carrie
+Engenheiro: Desenho e COnstrução, sustentação das soluções de dadps
+Cientista: MOdelagem, reconhecimento de padrões
+Analista: Criação de dashboards, apresentação visual
+
+Data-driven
+Analise-Entenda-Decida
+
+NoSQl (Not Only SQL)
+Documentos, wide-columms, KEy-values, grafos, O.O.
+
+Mongo
+Orientado a Documentos, Fácil de aprender, JSON, escalável, multi-plataforma,

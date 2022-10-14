@@ -1,0 +1,16 @@
+10:32 06/10/2022
+Modelagem - Representação - Referencia - Modelo
+
+Possui foco na descrição e relacionamento dos elementos que compõem a representação do contexto (mini-mundo)
+Conceitual <-> Físico
+
+Mini-mundo -> alto nível -> Esquema -> SGBD
+
+Esquema: estrutura da representação do modelo
+Entidade-Relacionamento e UML
+
+Entidade-Relacionamento
+Entidade(Objeto), atributo(caracteristicas, Relacionamentos
+
+Para manipular em BD é utilizado SQL
+

@@ -1,0 +1,47 @@
+09:58 06/10/2022
+Compartilhamento de dados e Processamento de Transações Multiusuários
+
+OLTP - Processamento de transações online em tempo real
+Ambiente de BD
+Utiliza API (Cliente-Servidor)
+Prover performance para que aja constancia na execução, gerenciando as transações de forma satisfatório sem interferência, com isolamento e atomicidade (tudo ou nada)
+Transaciton-driven - decisão
+
+Abordagem de banco de dados - Quais são os Atores em Banco de Dados
+Designe: Idenficar dados e requisitos, representação e estrutura, preliminar (modelgrm conceitual)
+DBA (Admin) - Gerencia recursos, orquestração , autorização de acesso.
+Usuário finais - Acesso (querying), categorização
+
+A natureza auto-descritiva do SGBD está ligada metadados  e esquemas
+
+Background - Para operar da melhor forma
+O designer e a implementação do sistema SGBD como um software package
+Operação e manutenção - hardware
+Desenvolvedores de ferramentas - performance, modelagem, análise
+
+Vantagens
+Controle de redundância (Desnormalização - deixar um nível de redundancia para melhorar as consultas)
+Restrição de acesso (Resposabilidade do DBA)
+Provendo Persistênica
+Estrutura de armazenamento (Geralmente em árvore), Query
+Caching, buffering, indexação (Resposabilidade do DBA)
+Backup e Recovery
+Interface Multi-user
+Representa relações complexas
+Integridade de dados -  mantem o estado BD em um estado válido
+	Integridade de Referência
+	Regras de Domínio
+
+
+Ganhos
+Padronização -  Entre BD dentro da organização
+Redução de tempo no desenvolvimento da aplicação - 
+Flexibilidade - Levantar Requisitos -> Desenvolver -> Testar -> Aprimorar, a separação entre dados e programa permite que a plicação continue rodando mesmo com alguma mudança no BD.
+Disponibilidade de info up_to-date - update imediato
+Economia de escala - Baixo custo operacional e de gerenciamento
+
+Quando não usar SGBDs
+Custo - Investimento incial, gerenciamento, segurança, conrole de concorrência, recory... (Se pergunta se precisa de udo isso)
+
+
+Dentre os papéis de um SGBD, o mesmo deve ser capaz de controlar acesso concorrente de múltiplos usuários. Além disso, estes múltiplos usuários podem ter contextos e perfis de acesso distintos relacionados aos dados. Dessa forma, quais características da arquitetura do SGBD estão diretamente ligadas ao cenário supracitado?  table views e controle de concorrência

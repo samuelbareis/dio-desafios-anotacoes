@@ -1,0 +1,11 @@
+LINGUAGENS PARA SGBD:
+
+DDL -A linguagem de definição de dados, mais conhecida como DDL é um grupo de comandos dentro da linguagem SQL que é utilizada para criação, alteração e exclusão de objetos em um banco de dados, seus principais comandos são: CREATE, ALTER, DROP e TRUNCATE
+
+DML- Linguagem de manipulação de dados (ou DML, de Data Manipulation Language) é o grupo de comandos dentro da linguagem SQL utilizado para a recuperação, inclusão, remoção e modificação de informações em bancos de dados. Os principais comandos DML são Select, Insert, Update e Delete.
+
+SDL - SDL significa linguagem de definição de armazenamento.
+
+VDL- Quando o SGBD usa a arquitetura com os três níveis, é utilizado a linguagem VDL (Vision Definition Language) que serve para a deinição das visões (views) do banco. Linguagem de consulta: usada para, fazer o que o nome diz, consultas, extrair informações de um banco de dados.
+
+INTERFACES DE SGBDs:
